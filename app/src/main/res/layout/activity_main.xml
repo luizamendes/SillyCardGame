@@ -17,6 +17,7 @@
         android:textSize="24sp" />
 
     <ImageView
+        android:contentDescription="@string/card_choice_number_one"
         android:id="@+id/option1_iv"
         android:layout_width="98dp"
         android:layout_height="177dp"
@@ -28,6 +29,7 @@
         android:layout_below="@+id/select_card_title"/>
 
     <ImageView
+        android:contentDescription="@string/card_choice_number_two"
         android:id="@+id/option2_iv"
         android:layout_width="98dp"
         android:layout_height="177dp"
@@ -38,6 +40,7 @@
         android:layout_below="@+id/select_card_title" />
 
     <ImageView
+        android:contentDescription="@string/card_choice_number_three"
         android:id="@+id/option3_iv"
         android:layout_width="98dp"
         android:layout_height="177dp"
@@ -49,6 +52,7 @@
         />
 
     <Button
+        android:contentDescription="@string/confirm_button"
         android:id="@+id/confirm_btn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -69,6 +73,7 @@
         tools:text="Você escolheu o coringa! Perdeu!" />
 
     <Button
+        android:contentDescription="@string/try_again"
         android:id="@+id/again_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

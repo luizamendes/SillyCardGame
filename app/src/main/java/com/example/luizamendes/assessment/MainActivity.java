@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         feedback_tv = findViewById(R.id.feedback_tv);
         isValid = true;
 
+        // TODO - Simplify the way this method is written
         option1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

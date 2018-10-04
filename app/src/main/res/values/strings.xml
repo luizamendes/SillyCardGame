@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Assessment</string>
+    <string name="app_name">Jogo de Cartas</string>
+    <string name="card_choice_number_one">Card choice number one</string>
+    <string name="card_choice_number_two">Card choice number two</string>
+    <string name="card_choice_number_three">Card choice number three</string>
+    <string name="confirm_button">Confirm button</string>
+    <string name="try_again">Try again</string>
 </resources>
