@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/select_card_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Selecione uma carta"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/option1_iv"
+        android:layout_width="98dp"
+        android:layout_height="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:layout_toStartOf="@+id/confirm_btn"
+        android:src="@drawable/cardback"
+        android:alpha="0.5"
+        android:layout_below="@+id/select_card_title"/>
+
+    <ImageView
+        android:id="@+id/option2_iv"
+        android:layout_width="98dp"
+        android:layout_height="177dp"
+        android:layout_alignTop="@+id/option1_iv"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cardback"
+        android:alpha="0.5"
+        android:layout_below="@+id/select_card_title" />
+
+    <ImageView
+        android:id="@+id/option3_iv"
+        android:layout_width="98dp"
+        android:layout_height="177dp"
+        android:layout_alignTop="@+id/option1_iv"
+        android:layout_toEndOf="@+id/confirm_btn"
+        android:src="@drawable/cardback"
+        android:alpha="0.5"
+        android:layout_below="@+id/select_card_title"
+        />
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:text="Confirmar"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/feedback_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        tools:text="Você escolheu o coringa! Perdeu!" />
+
+    <Button
+        android:id="@+id/again_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="106dp"
+        android:text="Tentar novamente"
+        android:textSize="12dp" />
+
+</RelativeLayout>
